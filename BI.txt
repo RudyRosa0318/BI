@@ -1,0 +1,12 @@
+Sistemas Inteligentes para negocios (BI)
+------------------------------------------
+
+se define como las estrategias, acciones, tecnologias, datos, productos o procesos tecnicos capaces de generar
+conocimineto mediante almacenamiento y analisis de informacion.
+
+Business Intelligence, mercado que tiene como objetivo facilitar el acceso y analisis de la informacion corporativa y proporcionar las 
+herramientas tecnologicas adecuadas para la toma de decisiones.
+
+generan conocimientos de valor que ayude a impulsar al negocio, gracias a los datos por diferentes medios.
+muestra el comportamiento presente y realiza preivisiones de futuro, permitiendo corregir errores y tomas decisiones 
+certeras basada en tal informacion
