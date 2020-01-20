@@ -7,6 +7,15 @@ conocimineto mediante almacenamiento y analisis de informacion.
 Business Intelligence, mercado que tiene como objetivo facilitar el acceso y analisis de la informacion corporativa y proporcionar las 
 herramientas tecnologicas adecuadas para la toma de decisiones.
 
-generan conocimientos de valor que ayude a impulsar al negocio, gracias a los datos por diferentes medios.
+Generan conocimientos de valor que ayude a impulsar al negocio, gracias a los datos por diferentes medios.
 muestra el comportamiento presente y realiza preivisiones de futuro, permitiendo corregir errores y tomas decisiones 
-certeras basada en tal informacion
+certeras basada en tal informacion.
+
+"Is about accessing data and analyzing information... to make better decisions."
+
+conjunto de soluciones que resuelven las diferentes necesidades analiticas
+-EIS: Execute Informatuib Syste
+-OLAP: online analitic process 
+-DOS: Data Discovery Solution
+-Datamining
+-KMS: Knowledge Management System
