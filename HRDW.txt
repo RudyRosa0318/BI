@@ -2,3 +2,14 @@ Corriente Electrica
 -DC corriente directa + -
 -AC tiene forma senoidal sube y baja
 
+Corriente AC
+variacion de las cargas electricas en direccion y tiempo con cambios periodicos de voltaje y corriente. por ejemplo la energia de la casa es AC
+
+Corriente: 
+amperios
+
+Voltaje:
+voltios
+
+Resistencias:
+ohmnios

@@ -27,3 +27,26 @@ los 3 centros de investigacion
 1. Massachusettes Institute of Technology (MIT), 1961-1967 
 2. The RAND Corporation 1962-1965
 3. National Physical Laboratory (NPL) 1964-1967
+
+ARPANET
+era de fines militares.
+
+1966, Lawrence Roberts (USA) se va de MIT a trabajar al proyecto ARPA y comienza el ARPANET.
+1967, Donald Davies y Roger Scantlebury, introduce por primera vez el concepto de paquetes y conmutacion de paquetes
+1969, 1 de Septiembre se instala el primer nodo de arpanet en la universidad de california en los angeles (UCLA), primeros en nodos de ARPANET (XEROX).
+1969, octubre se instala el segundo nodo de ARPANET en el instituto de investigacion de Stanford, California. 392 millas LA - CA
+se envia el primero mensaje de ARPANET (XEROX).
+1969, en noviembre se instala el tercer nodo en Sta. Barbara, 100 millas UCLA (IBM 360/75).
+1969, diciembre, cuarto nodo de ARPANET en UTAH (DEC PDP10)
+1972, Ray Tomlinson crea el email, primer programa de correo electronico
+1974, Robert Khan y Vinton Cerf publican un trabajo llamado Packet Network Internconnection (TCP)
+1978, TCP se separa en TCP/IP , TCP se encarga de comunicacion de extremo a extremo e IP del dirreccionamiento.
+1983, cualquier maquina conectada a ARPANET debe utilizar TCP/IP, en sustitucion de NCP (de ARPANET).
+1988, primer bug sin internet
+1989, cierre de ARPANET.
+1990, se comienza a instalar el primer servidor en el CERN.
+
+HISTORIA DE LA WEB
+
+1945, Vannervar Bush escribe un articulo sobre un dispositivo fotoelectrico y mecanico llamado memex
+
