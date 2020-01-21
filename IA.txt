@@ -1,0 +1,7 @@
+Reglas Python Estilo
+
+*Python distingue mayusculas de minusculas; los nombre de las variables pueden contener letras y digitos pero deben comenzar con una letra o con un simbolo de letra
+ o con guion bajo.
+ aunque es permitido el uso de letras mayusculas por convencion no se utilizan (nombre_completo)
+*las variabes deben de tener un nombre con significado.
+*operadores +,-,*,/,**(potencia), // (parte entera de la operacion, el entero menor mas proximo)

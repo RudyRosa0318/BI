@@ -1,0 +1,29 @@
+La Hsitoria del Internet
+
+Hitos en la diseminacion de la informacion
+ 
+1833, Distribucion en masa de periodicos.
+1844, Primer mensaje telegrafiado.
+1858, Primer intento de tender un cable de telecomunicaciones a traves del oceano atlantico. dejo de funcionar a los
+pocos dias debido con problemas con el aislamiento del cable.
+1866, se tiende con exito un cable de comunicaciones a traves del oceano atlantico.
+1876, invencion del telefono por Alexander Graham Bell.
+1901, Primera señal de radio enviada a traves del oceano atlantico.
+1917, primera llamada de telefono transcontinental.
+1927, primera pelicula hablada.
+1939, debut de la television en la feria mundial celebrada en Nueva York.
+1950, Inicio de las retransmisones en color.
+1958, Los laboratorios BELL inventan el modem
+1969, Creacion de ARPANET el primer "internet", primer medio de comuniccion que engloba todos los medios existentes.
+permite comunicacion escrita sonora y video.
+
+
+El Primer "Internet"
+las bases del actual internet se crearon en la decada de los 60, de forma paralela y sin quehbiera conocimiento entre 
+ellos del trabajo de los demas entre centro de investigcion se desarrollaron estudios sobre la comunicacion de ordenadores
+redes distribuidas y conmutacion de paquetes.
+
+los 3 centros de investigacion 
+1. Massachusettes Institute of Technology (MIT), 1961-1967 
+2. The RAND Corporation 1962-1965
+3. National Physical Laboratory (NPL) 1964-1967
