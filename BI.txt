@@ -19,3 +19,74 @@ conjunto de soluciones que resuelven las diferentes necesidades analiticas
 -DOS: Data Discovery Solution
 -Datamining
 -KMS: Knowledge Management System
+
+la inteligencia de negocio se uso por primera vez en 1865 en un libro de Richard Millar Devens.
+era un banquero Sir Henry Furnese se lucraba al adquirir y utilizar info sobre su entorno 
+
+Henry construto una red de infromacion a lo largo de toda europa, con ella podia adelantarse a su compentencia 
+en la adquisicion de noticias sobre batallas y acontencimientos importantes.
+posteriormente usaba este conocimiento para guiar sus practicas de negocios.
+
+1958, Hans Petter Luhn, reinterpreto BI en el contexto de Tecnologia.
+
+Definio: "La habilidad para aprehender la interrelacion de hechos presentados de tal manera que guian accion hacia un objeto deseado"
+propuso el uso de sistemas comoputacionales para interpretar los hechos. 
+con Luhn, la intelgencia de negocios encontro lugar en las tecnologias emergentes de mitad de siglo.
+
+**HANS PETER LUHN padre de BI. TRABAJO CON IBM, propuso e implemento Software BI**
+
+
+BI en la era de BIG DATA
+----------------------------
+La era del BIG DATA, esuna revolucion para el pequeño y mediano negocio. 
+Ahora , las herramientas de inteligencia empresarial son accesibles a un capital de inversion modesto;
+y el retorno de inversion es evidente de inmediato. Ahora, la interpretacion de datos y de generacion de conocimiento
+no requiere un titulo, posdoctoral en informática.
+
+
+DATA WAREHOUSE
+----------------
+BI es el acto de transormar datos totalmente crudos y operacionales en informacion util parea el analisis del negocio.
+
+*************************  
+BI extrae informacion   *  
+del sistema operacional *
+de la empresa           *
+*************************
+
+*************************
+Los datros son          *
+Transformados           *
+y cargados en un Data   *
+Warehouse               *
+*************************
+
+*************************
+Dado que estos datos son*
+creibles, se utilzan    *
+para obtener informacion* 
+comercial               *
+*************************
+
+Por Que usar dataware house?
+
+1. Todos los datos recolectados de varias fuentes no pueden ser directamente visualizados.
+
+2. Todos los datos necesitan primero ser integrados y procesados antes de que pueda suceder 
+   la visualizacion.
+
+Que es Data Warehouse
+1. Una localizacion central donde estan consolidados y almacenados los datos de diferentes lugares (BDD)
+2. Se mantiene separado de la base de datos operacional de la empresa
+3. Los usuarios finales acceden desde cualquier lugar cuando la informacion es necesitada.
+
+Ventajas de Warehouse
+1. Preguntas estrategicas pueden ser contestadas por estudios de tendencia.
+2. Utilizar DWH es mas rapido y certero.
+
+NOTA:
+DWH no es algo que la empresa puede comprar, necesita ser diseñado y depende completamente de los requerimientos
+la compañia.
+
+
+
