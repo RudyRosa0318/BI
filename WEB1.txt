@@ -49,4 +49,21 @@ se envia el primero mensaje de ARPANET (XEROX).
 HISTORIA DE LA WEB
 
 1945, Vannervar Bush escribe un articulo sobre un dispositivo fotoelectrico y mecanico llamado memex
+1965, Ted Nelson acuña el termino Hipertexto.
+1967, Andy Van Dam construye CSS el primer sistema de Hipertexto
+1969, Andy Van Dam crearon FRESS
+1980, Mientras trabajaba en el CERN Tim Berners-Lee escribe un programa llamado EWUE que permite crear enlaces entre 
+nodos un nodo posee un titulo, un tipo y una lista de enlaces.
+1990, Tim, comienza a desarrollar un editor y navegador grafico de hipertexto para NeXTStep. 
+el sistema operativo con entorno grafico para los ordenadores NeXT.
+Elige WorldWideWeb como nombre (Navegador) y World Wide Web (Proyecto).
+1990, noviembre se instala el primer servidor web y se publica la primer pagina.
+1993, los directores de CERN anuncian que la tecnologia WWW podra ser usada gratuitamente por cualquiera sin ningun 
+tipo de licencia o canon.
+1994, Marc Adreessen junto a otros colegas de NCSA forman una compañia llama Netscape Communication Corporation (silicon 
+valley)
+ **Netscape Creador Javascript**
+1994, se funda la World Wide Web Consortium (W3C, maxima autoridad)
+1995, Sun Microsystems (JAVA, MySQL, Apache, SPARC) anuncia la existencia de Java 1.0
+
 
