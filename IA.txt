@@ -1,7 +1,26 @@
 Reglas Python Estilo
 
-*Python distingue mayusculas de minusculas; los nombre de las variables pueden contener letras y digitos pero deben comenzar con una letra o con un simbolo de letra
+*Python distingue mayusculas de minusculas; los nombre de las variables pueden contener letras y 
+digitos pero deben comenzar con una letra o con un simbolo de letra
  o con guion bajo.
  aunque es permitido el uso de letras mayusculas por convencion no se utilizan (nombre_completo)
 *las variabes deben de tener un nombre con significado.
 *operadores +,-,*,/,**(potencia), // (parte entera de la operacion, el entero menor mas proximo)
+
+
+PEMDAS
+dice que primero hara lo que esta en parentesis 
+p = parentesis
+e = exponentes
+m = multiplicacion
+d = division 
+a = adicion
+s = sustraccion
+
+Composicion, mezcla de varios comandos a la misma vez
+numero = int(input("Ingrese un numero:"))
+
+Radio de un Circulo
+radio = float(input("Cual es radio del circulo?"))
+13.67
+area = 3.14159 * radio ** 2

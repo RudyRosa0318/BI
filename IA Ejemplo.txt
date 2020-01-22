@@ -1,0 +1,78 @@
+>>> float (17.5)
+17.5
+>>> float ("17.5")
+17.5
+>>> m = "fsdfs"
+>>> m
+'fsdfs'
+>>> m
+'fsdfs'
+>>> m
+'fsdfs'
+>>> m
+'fsdfs'
+>>> m
+'fsdfs'
+>>> int (False)
+0
+>>> int (false)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'false' is not defined
+>>> int  (False)
+0
+>>> str (564564)
+'564564'
+>>> str (56)
+'56'
+>>> clear
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> clear()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> 2 + 4 * 3 / 2 ** 4
+2.75
+>>> fruta * 1000
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'fruta' is not defined
+>>> otra_fruta = '3
+  File "<stdin>", line 1
+    otra_fruta = '3
+                  ^
+SyntaxError: EOL while scanning string literal
+>>> otra_fruta = 'Manzana'
+>>> fruta = 'zana'
+>>> fruta + otra_fruta
+'zanaManzana'
+>>> fruta + otra_fruta * 10
+'zanaManzanaManzanaManzanaManzanaManzanaManzanaManzanaManzanaManzanaManzana'
+>>> (fruta + otra_fruta) * 10
+'zanaManzanazanaManzanazanaManzanazanaManzanazanaManzanazanaManzanazanaManzanazanaManzanazanaManzanazanaManzana'
+>>> nombre_completo = input("Ingresa Nombre Completo")
+Ingresa Nombre Completo
+>>> nombre_completo = input("Ingresa Nombre Completo: ")
+Ingresa Nombre Completo: Rudito
+>>> nombre_completo
+'Rudito'
+>>> numero = input("Ingresa Numero: ")
+Ingresa Numero: 25
+>>> numero
+'25'
+>>> int(numero)
+25
+>>> num = int(input("Ingrese Numero: "))
+Ingrese Numero: 25
+>>> type(num)
+<class 'int'>
+>>> radio = float(input("cual es el radio del circulo"))
+cual es el radio del circulo13.5
+>>> area = 3.14159 * radio ** 2
+>>> print ("el area del circulo es :", area)
+el area del circulo es : 572.5547775
+>>> area
+572.5547775
+>>>
