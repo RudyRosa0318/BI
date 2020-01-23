@@ -76,3 +76,13 @@ el area del circulo es : 572.5547775
 >>> area
 572.5547775
 >>>
+------------------------------------------------------------
+>>> for nombre in ["Juan","Pedro","Maria","Karla"]:
+...   invitar = "Hola " + nombre + "Estas Invitado a mi fiesta"
+...   print(invitar)
+...
+Hola JuanEstas Invitado a mi fiesta
+Hola PedroEstas Invitado a mi fiesta
+Hola MariaEstas Invitado a mi fiesta
+Hola KarlaEstas Invitado a mi fiesta
+>>>
