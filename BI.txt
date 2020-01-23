@@ -112,12 +112,65 @@ Base de datos Relaciona (OLTP)
 -Util para administrar el negocio
 -Basado en un modelo entidad-relacion
 -Proporciona datos altamente detallada
+-Usado para ingresar datos dentro de la base de datos
+-El tamaño de la BD entre 100MB - 1GB
+-Rapido, proporciona alto rendimiento
+-Numero de registros a los que accede esta en decenas
 
 Almacen de datos Anaiticos (OLAP)
+
 -Contiene datos historicos del negocio
 -Util para analizar el negocio
 -Basado en esquemas Star,Snowflake y Fact Constellation  <-- ***Tarea***
 -Proporciona Datos resumidos y Consolidados
+-Usado para leer datos de un almacenamiento de datos
+-El Tamaño de DWH esta entre 100GB - 1TB 
+-Altamente Flexible, pero no rapido
+-Numero de registros a los que accede esta en millones.
+
+Ejemplos 
+OLTP
+1. El servidor de un supermercado que almacena cada vez que un producto es comprado.
+2. Servidor de un banco que guarda cada vez que una transaccion fue hecha en una cuenta particular.
+
+OLAP
+1. Un ejecutivo de un banco quiere saber cuantos clientes estan utilizando un cajero automatico de su marca.
+basado en esto decidira si este es recolectado.
 
 
+DATA MART
+-------------
+Es una version mas pequeña de DWH que maneja un tema en especifico,
+
+Se enfonca en un area por lo tanto extraen datos de un numero limitado de fuentes.
+El tiempo para cosntruir un Data Mart es muy pequeño comparada con DWH.
+
+DWH
+-Datos de toda la empresa 
+-Multipleas Areas
+-Multiples Fuentes de Datos 
+-Ocupa Gran memoria
+-Largo tiempo de implementacion
+
+Data Mart
+-Datos de un deaprtamento
+-Una sola Area
+-Fuentes Limitadas de datos
+-Ocupa Memoria Limitada 
+-Corto tiempo de implementacion
+
+3 Tipos de Data
+La informacion primero es extraida de los sistemas OLTP y cargada dentro del DWH para luego pasar al Data Mart
+Dependiente
+---------------
+OLTP Source --> DWH --> Data Mart
+
+Independiente
+---------------
+La informacion es recibida directamente de la fuente. Este tipo de Data Mart es apropiado para una organizacion
+
+
+Hibrido
+---------------
+Los datos son extraidos tanto
 
