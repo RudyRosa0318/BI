@@ -88,5 +88,18 @@ NOTA:
 DWH no es algo que la empresa puede comprar, necesita ser diseñado y depende completamente de los requerimientos
 la compañia.
 
+BILL INMON, padre de Data Warehouse.
+DWH es una coleccion de datos orientado a temas, integrado, variante de tiempo y no volatil que apoya al manejo y toma de decisiones.
 
+Orientado a Temas:
+los datos son categorizados y almacenados por los temas de negocio en lugar de la aplicacion.
+
+Integrado:
+Datos de un solo tema son recolectados en un solo lugar a pesar de que vienen de diferentes fuentes.
+
+Variante de Tiempo:
+Los datos son almacenados en serie y cada uno puede representar un periodo de tiempo diferente.
+
+No Volatil:
+Tipicamente los datos de un DWH no son actualizados o borrados.
 
