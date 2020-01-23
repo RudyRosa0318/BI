@@ -89,7 +89,8 @@ DWH no es algo que la empresa puede comprar, necesita ser diseñado y depende com
 la compañia.
 
 BILL INMON, padre de Data Warehouse.
-DWH es una coleccion de datos orientado a temas, integrado, variante de tiempo y no volatil que apoya al manejo y toma de decisiones.
+DWH es una coleccion de datos orientado a temas, integrado, variante de tiempo y no volatil que apoya al 
+manejo y toma de decisiones.
 
 Orientado a Temas:
 los datos son categorizados y almacenados por los temas de negocio en lugar de la aplicacion.
@@ -101,5 +102,22 @@ Variante de Tiempo:
 Los datos son almacenados en serie y cada uno puede representar un periodo de tiempo diferente.
 
 No Volatil:
-Tipicamente los datos de un DWH no son actualizados o borrados.
+Tipicamente los datos de un DWH no es actualizados o borrados.
+
+OLTP(BD) VS OLAP(DWH)
+----------------------
+Base de datos Relaciona (OLTP)
+
+-Contiene los datos actualizados 
+-Util para administrar el negocio
+-Basado en un modelo entidad-relacion
+-Proporciona datos altamente detallada
+
+Almacen de datos Anaiticos (OLAP)
+-Contiene datos historicos del negocio
+-Util para analizar el negocio
+-Basado en esquemas Star,Snowflake y Fact Constellation  <-- ***Tarea***
+-Proporciona Datos resumidos y Consolidados
+
+
 
