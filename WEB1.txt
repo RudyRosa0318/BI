@@ -68,4 +68,8 @@ valley)
 1995, Coincidiendo con el lanzamiento de Microsoft Windows 95 se presenta Microsoft Internet Explorer y comienza la guerra
 de los navegadores
 
+** TAREA ********************************************************************
+Generaciones de Sitios Web, Descripcion y caracteriscas de cada generacion. *
+*****************************************************************************
+
 
