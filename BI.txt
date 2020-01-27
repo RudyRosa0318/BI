@@ -168,9 +168,59 @@ OLTP Source --> DWH --> Data Mart
 Independiente
 ---------------
 La informacion es recibida directamente de la fuente. Este tipo de Data Mart es apropiado para una organizacion
-
+pequeña.
 
 Hibrido
 ---------------
-Los datos son extraidos tanto
+Los datos son extraidos tanto de un sistema OLTP como de un DWH
+------------------------------------------------------------
 
+METADATA
+---------
+es definido como los datos sobre los datos. en DWH define la fuente de datos.
+(Archivos planos, archivos de excel, base de datos releacionales, etc.)
+ayuda a cargar los datos de forma mas automatica.
+(OLTP = base Transaccionales)
+
+Tipos de cubo OLAP
+*Molap
+Forma de OLAP que procesa y almacena los datos directamente en un base multidimensional.
+Ventaja: Excelente desempeño, puede hacer calculos complejos.
+Desventaja: Solo puede manejar datos limitados.
+
+*ROLAP
+Forma de OLAP que hace analisis multidimensionales dinamicos de datos almacenados en base de datos relacionados
+en lugar de BD multidimensional.
+Ventaja: Gran cantidad de datos pueden ser procesados.
+Desventaja: Requiere mas tiempo de proceso y espacio en disco.
+
+*HOLAP
+Es una combinacion de MOLAP y ROLAP, un Hibrido.
+Ventaja: Saca toda la informacion necesaria y relenvante de una base de datos relacional.
+
+-Operaciones de cubos OLAP
+ROLL UP agrega datos a un cubo de datos de las siguientes maneras:
+1. Escalando un concepto de jerarquia para un dimension
+2. Reduciendo una dimension.
+
+DRILL DOWN es la operacion reversa a ROLL-UP., 
+Se realiza por cualquiera: 
+1. Reducir una jerarquia conceptual para una dimension.
+2. Introducir una nueva dimension 
+
+SLICE proporciona un nuevo sub-cubo de una dimension particular en un cubo dado
+
+DICE proporciona un nuevo sub-cubo de dos o mas dimensiones.
+
+PIVOT conocido como la operacion de rotacion.
+Transpone los ejes para proporcionar una presentacion alternativa de los datos.
+
+Dimensiones
+1. Las tablas que describen las dimensiones involucradas son llamadas a tablas de dimension.
+2. Al dividir un proyecto de data warehousing en dimensiones se provee informacion estructada para analisis y reportes.
+3. Los usuarios finales realizan los querys en esta tabla de dimension que contiene toda la informacion descriptiva.
+
+FACTS Y MEASURE
+1. La tabla de hecho(Fact) es una medida que se puede sumar, calcular promedio o manipular
+2. Una tabla hecho contiene dos tipos de datos: Una llave de dimension y una medida
+3. Cada tabla de dimension esta unida a una tabla de hechos.
