@@ -1,0 +1,8 @@
+1.listar todos los numeros naturales menores que 10 que son multiplos de 3 o 5
+obtenemos 3 5 6 9 siendo la suma de estos multiplos 23.
+Encontrar la suma de todos los multiplos de 3 o 5 menores que 1000(mil).
+
+2.Cada nuevo termino en la secuencia de Fibonacci se genera por la suma de los terminos anteriores.
+comenzando con 1 y 2 los primeros 10 terminos son: 1,2,3,5,8,13,21,34,55,89
+si consideramos los terminos en secuencia de fibonacci cuyos valores no exceden los 4 millones encontrar la suma 
+de todos los pares
