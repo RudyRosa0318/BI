@@ -6,3 +6,11 @@ Encontrar la suma de todos los multiplos de 3 o 5 menores que 1000(mil).
 comenzando con 1 y 2 los primeros 10 terminos son: 1,2,3,5,8,13,21,34,55,89
 si consideramos los terminos en secuencia de fibonacci cuyos valores no exceden los 4 millones encontrar la suma 
 de todos los pares
+
+3.Los Factores primos del numero 13195 son 5 ,7 ,13 y 29
+¿Cual es el fator primo más grande del número 600,851,475,143?
+
+4.Un numero palindromo que se lee igual de izquierda a derecha y viceversa.
+el palindromo mas grande que se puede obtener por el producto de dos numeros de dos digitos 
+es 9009 que es igual a 91 * 99.
+Encuentre el palindromo mas grande que se pueda encontrar por el producto de numeros de tres digitos

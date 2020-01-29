@@ -51,11 +51,11 @@ def doblar_valor_elementos(una_lista):
     return una_lista
 
     #probar funciones
-    print('la distancia entre dos puntos es: ',distancia_entre_dos_puntos(1,2,9,10))
-    print('el area de un circulo es: ', calculo_area_circulo(2.5))
-    print('El valor absoluto es de -123 es: ', valor_absoluto(-123))
-    mi_lista = list(range(10))
-    print('El vaclor de la lista doble es: ', doblar_valor_elementos(mi_lista))
+    #print('la distancia entre dos puntos es: ',distancia_entre_dos_puntos(1,2,9,10))
+    #print('el area de un circulo es: ', calculo_area_circulo(2.5))
+    #print('El valor absoluto es de -123 es: ', valor_absoluto(-123))
+    #mi_lista = list(range(10))
+    #print('El vaclor de la lista doble es: ', doblar_valor_elementos(mi_lista))
 
 
 
