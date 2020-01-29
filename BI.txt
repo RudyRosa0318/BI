@@ -4,8 +4,8 @@ Sistemas Inteligentes para negocios (BI)
 se define como las estrategias, acciones, tecnologias, datos, productos o procesos tecnicos capaces de generar
 conocimineto mediante almacenamiento y analisis de informacion.
 
-Business Intelligence, mercado que tiene como objetivo facilitar el acceso y analisis de la informacion corporativa y proporcionar las 
-herramientas tecnologicas adecuadas para la toma de decisiones.
+Business Intelligence, mercado que tiene como objetivo facilitar el acceso y analisis de la informacion corporativa y 
+proporcionar las herramientas tecnologicas adecuadas para la toma de decisiones.
 
 Generan conocimientos de valor que ayude a impulsar al negocio, gracias a los datos por diferentes medios.
 muestra el comportamiento presente y realiza preivisiones de futuro, permitiendo corregir errores y tomas decisiones 
@@ -29,7 +29,8 @@ posteriormente usaba este conocimiento para guiar sus practicas de negocios.
 
 1958, Hans Petter Luhn, reinterpreto BI en el contexto de Tecnologia.
 
-Definio: "La habilidad para aprehender la interrelacion de hechos presentados de tal manera que guian accion hacia un objeto deseado"
+Definio: "La habilidad para aprehender la interrelacion de hechos presentados de tal manera que guian accion hacia 
+un objeto deseado"
 propuso el uso de sistemas comoputacionales para interpretar los hechos. 
 con Luhn, la intelgencia de negocios encontro lugar en las tecnologias emergentes de mitad de siglo.
 
@@ -224,3 +225,28 @@ FACTS Y MEASURE
 1. La tabla de hecho(Fact) es una medida que se puede sumar, calcular promedio o manipular
 2. Una tabla hecho contiene dos tipos de datos: Una llave de dimension y una medida
 3. Cada tabla de dimension esta unida a una tabla de hechos.
+
+Esquemas 
+---------
+1.Los dan una descripcion logica de toda la base de datos
+2.Da detalles sobre los lugares restringidos de las tablas, las llaves presentes y como estan unidas a las diferentes tablas.
+3.Una BD usa un modelo relacional, mientras que un DWH usa Star, Snowflake y Fact Constellation
+
+1.Star
+Cada dimension en este esquema esta representada con una tabla de una sola dimension que contiene una serie de atributos
+
+La tabla de hechos esta en el centro, la cual contiene las llaves de cada tabla de dimension, así como los atributos.
+
+2.Snowflake
+Las tablas de dimension un esquema Snowflake esta normalizado. (Divido en tablas adicionales)
+
+3.Galaxy
+Tambien conocido como fact Constellation. contiene mas de tablas de hechos.
+
+Las dimensiones que son compartidas son llamdas dimensiones conformadas.
+
+Aprender Data Warehouse
+-------------------------
+Para considerar tomar decisiones en base a datos que son mas exactos y generan mas valor.
+DWH, es una herramienta importante para proveer informacion, tener un fuerte conocimiento se vuelve esencial para los desarrolladores, administradores
+de base de datos, etc. Las Oportunidades crecen al conocer sobre BI.
