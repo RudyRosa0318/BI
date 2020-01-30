@@ -72,4 +72,12 @@ de los navegadores
 Generaciones de Sitios Web, Descripcion y caracteriscas de cada generacion. *
 *****************************************************************************
 
+Reglas para utilizar imagenes en Sitios Web
+1.Utilizar el texto alternativo. (alt)
+ayuda a proveer una descripcion de la imagen cuando la imagen no se logra cargar pero tambien es utilizada por google 
+y el resto de buscadores, la utilizan para los ranking de paginas
+
+si se muestran en diferentes angulos, se deben utilizar etiquetas Alt distintas descripciones añadidas para las diferentes
+vistas y 
+
 
