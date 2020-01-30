@@ -178,7 +178,87 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'start' is not defined
 >>>
-6
-7
-8
-9
+*******************************************************************
+>>> cuenta = ["uno","dos","tre","cuatro"]
+>>> cuenta
+['uno', 'dos', 'tre', 'cuatro']
+>>> len(cuenta)
+4
+>>> del cuenta[1]
+>>> cuenta
+['uno', 'tre', 'cuatro']
+>>> cuenta.append["cinco"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> cuenta,append["cinco"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'append' is not defined
+>>> cuenta.append["cinco"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> cuenta.append("cinco")
+>>> cuenta
+['uno', 'tre', 'cuatro', 'cinco']
+>>> cuenta.insert(1,"dos")
+>>> cuenta
+['uno', 'dos', 'tre', 'cuatro', 'cinco']
+>>> cuenta.count("cuatro")
+1
+>>> cuenta.count("cuatros")
+0
+>>> cuenta.index("cuatros")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 'cuatros' is not in list
+>>> cuenta.index("cuatro")
+3
+>>> c
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'c' is not defined
+>>>  a = [1,2,3,4]
+  File "<stdin>", line 1
+    a = [1,2,3,4]
+    ^
+IndentationError: unexpected indent
+>>> >>> b = [5,6,7,8,9]
+  File "<stdin>", line 1
+    >>> b = [5,6,7,8,9]
+    ^
+SyntaxError: invalid syntax
+>>>  a = [1,2,3,4]
+  File "<stdin>", line 1
+    a = [1,2,3,4]
+    ^
+IndentationError: unexpected indent
+>>> >>> b = [5,6,7,8,9]
+  File "<stdin>", line 1
+    >>> b = [5,6,7,8,9]
+    ^
+SyntaxError: invalid syntax
+>>> >>> c = a + b
+  File "<stdin>", line 1
+    >>> c = a + b
+    ^
+SyntaxError: invalid syntax
+>>> a = [1,2,3,4]
+>>> b = [5,6,7,8,9]
+>>> c = a + b
+>>> c[::-1]
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+>>> c
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> c.reverse()
+>>> c
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+>>> c.sort()
+>>> c
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> d = [3,468,4,6,6,0,64,7]
+>>> d.sort()
+>>> d
+[0, 3, 4, 6, 6, 7, 64, 468]
+>>>
