@@ -84,4 +84,6 @@ vistas.
 
 3.resume el contenido de tu sitio con imagenes.
 
-
+4.optimizar y cambiar el tamaño de tus imagenes, mantener las imagenes pequeñas, las imagenes grandes aumentan el tiempo de
+carga del sitio web.
+las imagens pequeñas deben tener  30kb y las grandes entre 60/200 kb
