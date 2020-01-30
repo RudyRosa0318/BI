@@ -12,3 +12,4 @@ def factor_primo(numero):
     numero: el valor maximo a buscar de numeros primos
     """
     
+    
