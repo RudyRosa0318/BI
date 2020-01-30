@@ -78,6 +78,10 @@ ayuda a proveer una descripcion de la imagen cuando la imagen no se logra cargar
 y el resto de buscadores, la utilizan para los ranking de paginas
 
 si se muestran en diferentes angulos, se deben utilizar etiquetas Alt distintas descripciones añadidas para las diferentes
-vistas y 
+vistas.
+
+2.usar las imagenes propias, utilizar las propias esto evita usar licencias sin permiso.
+
+3.resume el contenido de tu sitio con imagenes.
 
 
