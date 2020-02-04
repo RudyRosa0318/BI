@@ -27,3 +27,11 @@ area = 3.14159 * radio ** 2
 
 python usa ident (Identacion)
 
+DATA SCIENCE
+Campo interdisciplinario que involucra metodos cientificos, procesos y sistemas para extraer conocimiento o un mejor
+entendimiento de datos en sus diferentes formas.
+
+Estadistica
+Mineria de Datos
+Aprendizaje Automatico
+Analitica Predictiva
