@@ -1,0 +1,4 @@
+import pandas as pd
+data = ""
+/*Ruta absoluta toda la direccion toda la direccion desde de la unidad hasta el directorio*/
+/*
