@@ -1,0 +1,138 @@
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 1em;
+}
+.site-header {
+  padding: 1.25em 0;
+}
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+.bar {
+  background-color: #db008d;
+  overflow: hidden;
+}
+.main-nav {
+  padding: 1.25em 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.main-content {
+  margin-top: 2.5em;
+  padding: 0;
+}
+/* Media query */
+@media (min-width: 768px) {
+  .main-content {
+    width: 70%;
+    float: left;
+    padding: 0 3.75em 0 0;
+  }
+  .sidebar {
+    width: 30%;
+    float: right;
+    padding: 0;
+    margin-top: 2.5em;
+  }
+}
+/* Acceder a los hijos de un elemento HTML */
+.main-nav a:hover {
+  background-color: #00b8e4;
+}
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.375em;
+  padding: 1.25em;
+  text-align: center;
+  display: block;
+  transition: background-color 3s ease-in-out;
+}
+@media (min-width: 768px) {
+  .main-nav a {
+    display: inline;
+  }
+}
+
+.entry {
+  margin-top: 3.75en;
+}
+
+.entry last-of-type{
+  margin-bottom:  0;
+}
+
+.entry img{
+  display: block;
+}
+
+@media(min-width: 768px){
+  .entry img{
+    width: 18.75em;
+    float: left;
+    margin: 0 1.25em 0 0;
+  }
+}
+
+.entry p{
+  text-align: justify;
+}
+
+.button{
+  background-color: #03c6f7;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0.625em 3.75em;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top:  0.625em;
+  display: inline-block;
+  transition: background-color .3s ease-in-out;
+}
+
+.button :hover{
+  background-color: #0083a4;
+}
+
+.site-header{
+  list-style: none;
+  padding: 0;
+  }
+
+  .sidebar ul li {
+    padding: 0.625em;
+
+  }
+
+  .sidebar :hover{
+    background-color: #00b8e4;
+
+  }
+  .sidebar ul li a{
+    color: #00b8e4;
+    font-size: 1.25em;
+    text-decoration: none;
+  }
+
+  .sidebar ul li hover a{
+    color: #ffffff;
+  }
