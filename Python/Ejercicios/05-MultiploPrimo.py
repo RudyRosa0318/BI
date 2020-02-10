@@ -18,11 +18,12 @@ def multiplo_primo_menor(numero):
     else:
         pass
     """
-    assert numero <= 2 #continuar solo si el valor es mayor que 2
+    assert numero >= 2 #continuar solo si el valor es mayor que 2
      
     for i in range(2, int(math.sqrt(numero)) + 1):
         if numero % i == 0:
             return i
            
     return numero #numero es primo
-print(multiplo_primo_menor(13195))
+if __name__ == "__main__":
+    print(multiplo_primo_menor(13195))
