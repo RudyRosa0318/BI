@@ -1,0 +1,23 @@
+data2 = pd.read_csv(mainpath + "/customer-churs-model/Customer Churs model.txt")
+data2.head
+
+desde URL
+medals_url= "http://winterolimpicsmedals.com/medal.csv"
+medals_data=pd.read_csv(medals_url)
+medals_data.head()
+
+def download_from_url (url,filename,sep=",",delim = "/n",encoding = "utf/8",
+mainpath = "/user/hsabillon/desktop"):
+
+"""
+Obtiene un archivo desde una URL y lo almacena en un directorio local
+
+Param
+url: la localizacion de los recursos
+filename: el nombre 
+"""
+import urllib3
+http = urllib3.PoolManager()
+request = http.request("GET", url)
+print("El estado de la respuesta es ", request.status)
+download_from_url:("https://winterolynpicsmedals.com", medals.csv)

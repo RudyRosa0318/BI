@@ -136,3 +136,8 @@ p {
   .sidebar ul li hover a{
     color: #ffffff;
   }
+
+  .footer-site{
+    background-color: #db008d;
+    
+  }
