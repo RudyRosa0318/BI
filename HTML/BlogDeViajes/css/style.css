@@ -64,80 +64,107 @@ p {
   padding: 1.25em;
   text-align: center;
   display: block;
-  transition: background-color 3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 @media (min-width: 768px) {
   .main-nav a {
     display: inline;
   }
 }
-
+/* Entradas del blog */
+h2 {
+  color: #00b8e4;
+  margin-bottom: 1.25em;
+}
 .entry {
-  margin-top: 3.75en;
+  margin-bottom: 3.75em;
 }
-
-.entry last-of-type{
-  margin-bottom:  0;
+.entry:last-of-type {
+  margin-bottom: 0;
 }
-
-.entry img{
+.entry img {
   display: block;
 }
-
-@media(min-width: 768px){
-  .entry img{
+/* Colocar la imagen a la izquierda */
+@media (min-width: 768px) {
+  .entry img {
     width: 18.75em;
     float: left;
     margin: 0 1.25em 0 0;
   }
 }
-
-.entry p{
+.entry p {
   text-align: justify;
 }
-
-.button{
-  background-color: #03c6f7;
+.buttom {
+  background-color: #00b8e4;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   padding: 0.625em 3.75em;
+  margin-top: 0.625em;
   font-size: 1.25em;
   font-weight: bold;
-  margin-top:  0.625em;
   display: inline-block;
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
-
-.button :hover{
+.buttom:hover {
   background-color: #0083a4;
 }
-
-.site-header{
+/*  Sidebar */
+.sidebar ul {
   list-style: none;
   padding: 0;
+}
+.sidebar ul li {
+  padding: 0.625em;
+}
+.sidebar ul li:hover {
+  background-color: #00b8e4;
+}
+.sidebar ul li a {
+  color: #0083a4;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+.sidebar ul li:hover a {
+  color: #ffffff;
+}
+/* Footer */
+.footer-site {
+  background-color: #db008d;
+  margin-top: 3.75em;
+  padding-top: 2.5em;
+  text-align: center;
+}
+.footer-site h2 {
+  color: #ffffff;
+}
+.footer-site a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25em;
+  margin-right: 1.25em;
+}
+.footer-site a:last-of-type {
+  margin-right: 0;
+}
+.footer-site p {
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .footer-site .about-us {
+    float: left;
+    width: 35%;
+    text-align: left;
   }
-
-  .sidebar ul li {
-    padding: 0.625em;
-
+  .footer-site .footer-menu {
+    float: right;
+    width: 65%;
+    text-align: right;
   }
-
-  .sidebar :hover{
-    background-color: #00b8e4;
-
-  }
-  .sidebar ul li a{
-    color: #00b8e4;
-    font-size: 1.25em;
-    text-decoration: none;
-  }
-
-  .sidebar ul li hover a{
-    color: #ffffff;
-  }
-
-  .footer-site{
-    background-color: #db008d;
-    
-  }
+}
+.copyright {
+  background-color: #b10474;
+  padding: 1.25em 0;
+}
