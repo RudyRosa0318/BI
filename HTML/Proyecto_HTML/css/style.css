@@ -8,17 +8,21 @@ html{
 }
 body{
     font-family: proxima nova,"Helvetica Neue",Helvetica,sans-serif;
-    background-color: #111d2d;
+    background-color:#111d2d ;
+   
 }
 img{
     max-width: 100%;
+    background-color: #111d2d;    
+    border-radius: 1em;
+
 }
 
 p{
     font-size: 1em;
 }
 .site-header{
-background-color: #ffffff;
+background-color: #111d2d;
 }
 .gamer{
     max-width: 30%;
@@ -38,11 +42,11 @@ background-color: #ffffff;
     background-color: #fe8a65;
     overflow: hidden;
 }
+
 @media(min-width:768px){  
     .site-header{
         padding: 0.5em 0.5em;
-        margin: 0;
-    
+        margin: 0;   
        }
 }
 .main-nav{
@@ -51,12 +55,13 @@ background-color: #ffffff;
 .main-nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.375em;
+    font-size: 1.35em;
     padding: 1.25em;
     text-align: center;
     display: block;
     transition: background-color 0.3s ease-in-out;
-  }
+    
+}
 
 @media(max-width:568px){
     .bar {
@@ -79,4 +84,3 @@ background-color: #ffffff;
     }
 }
 
- 

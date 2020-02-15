@@ -9,3 +9,48 @@ Fondo 111d2d
 color gamer c92234}
  
 https://ya-webdesign.com/imgdownload.html (CONTROL)
+
+******************Neon*****************************************
+https://codepen.io/FelixRilling/details/qzfoc
+
+}
+.play a{
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.play{
+  color: #0c62ad;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+  
+} 
+.play:hover{
+  color: #0c62ad;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+@-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #0473b8, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0c62ad, 0 0 70px #0c62ad, 0 0 80px #0c62ad, 0 0 100px #0c62ad, 0 0 150px #0c62ad;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+  }
+
+  @-moz-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+  }
+
+************************* Color Background and Lines*****************************************************
+
+ background: repeating-linear-gradient(90deg, green 0%, yellow 10%, blue 0%, #ffffff 50%) 0 / 9em 9em;
