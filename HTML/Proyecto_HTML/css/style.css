@@ -12,7 +12,6 @@ body{
     color: #ffffff;
    
 }
-
 p{
     font-size: 1em;
 }
@@ -133,8 +132,6 @@ p{
         padding: 0 0.5em;
         margin: 0 1.3em ;
     }
-
-
 }
 @media(min-width:776px){
     .gamercontrol{
@@ -155,4 +152,106 @@ p{
 }
 
 
+@media(max-width:774px){
+    .bar {
+        float: right;
+        border-radius: 1em;  
+      }
+      .gamercontrol{
+         width: 20%;
+         float:inline-end;
+         position: bottom;
+      }
+      .gamer{
+          width: 90%;
+      }
+        
+      .main-nav img{
+         width: 7%;
+         margin: 0.5em 0 0 0;
+      }
+      .main-nav a{
+        margin: 0;
+        padding:0;  
+      }
+
+      .main-nav div{
+        display: inline;
+        padding: 0 0.5em;
+        margin: 0 1.3em ;
+        
+    }
+    .body .main-topic-content{
+    width: 70%;
+    float: left;
+    }
+    .body .side-content{
+    width: 25%;  
+    float:right;  
+    }
+    .social-media img{
+        width: 15%;
+    }
+
+.footer-page-review a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.35em;
+    padding:.25em;
+    text-align: left;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0em;
+}
+}
+.footer-site{
+    background-color: darkgray;
+    margin-top: 1.25em;
+    padding-top: 1.25em;
+    text-align: center;
+}
+
+.footer-site a:last-of-type {
+    margin-right: 0;
+}
+
+
+@media(min-width:768px){
+    .about-us{
+    width: 60%;
+    float: left;
+    }
+    .footer-page-review{
+    width: 40%;    
+    float: right;
+    }
+    .social-media img{
+        width: 7%;
+    }
+    .social-media{
+        padding: 1.5em;
+    }
+    
+.footer-page-review a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.35em;
+    padding:.25em;
+    text-align:center;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0em;
+}
+.footer-page-review h2{
+    text-align: center;
+}
+}
+.center{
+align-content: center;
+width: 60%;
+}
+
+.main-topic-content{
+    margin:2.5em 0.5em;
+}
 

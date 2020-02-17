@@ -10,6 +10,8 @@ color gamer c92234}
  
 https://ya-webdesign.com/imgdownload.html (CONTROL)
 https://www.pngfuel.com/free-png/ckxax/download
+https://stackoverflow.com/questions/471510/hide-text-using-css
+https://www.freepng.es/
 
 ******************Neon*****************************************
 https://codepen.io/FelixRilling/details/qzfoc
@@ -57,3 +59,8 @@ https://codepen.io/FelixRilling/details/qzfoc
  background: repeating-linear-gradient(90deg, green 0%, yellow 10%, blue 0%, #ffffff 50%) 0 / 9em 9em;
 *************************Header circular************************************************
 https://schauhan.in/how-to-make-curved-header-using-html-and-css-css-tricks/
+
+
+background:linear-gradient(90deg,#ffffff,#fe8a65); 
+
+ background:linear-gradient(deg,#683383,#164271);
