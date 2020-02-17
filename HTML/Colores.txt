@@ -9,6 +9,7 @@ Fondo 111d2d
 color gamer c92234}
  
 https://ya-webdesign.com/imgdownload.html (CONTROL)
+https://www.pngfuel.com/free-png/ckxax/download
 
 ******************Neon*****************************************
 https://codepen.io/FelixRilling/details/qzfoc
@@ -54,3 +55,5 @@ https://codepen.io/FelixRilling/details/qzfoc
 ************************* Color Background and Lines*****************************************************
 
  background: repeating-linear-gradient(90deg, green 0%, yellow 10%, blue 0%, #ffffff 50%) 0 / 9em 9em;
+*************************Header circular************************************************
+https://schauhan.in/how-to-make-curved-header-using-html-and-css-css-tricks/

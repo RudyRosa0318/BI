@@ -8,24 +8,45 @@ html{
 }
 body{
     font-family: proxima nova,"Helvetica Neue",Helvetica,sans-serif;
-    background-color:#111d2d ;
+    background:linear-gradient(90deg,#683383,#164271);  
+    color: #ffffff;
    
-}
-img{
-    max-width: 100%;
-    background-color: #111d2d;    
-    border-radius: 1em;
-
 }
 
 p{
     font-size: 1em;
 }
-.site-header{
-background-color: #111d2d;
+.site-header:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(10deg,#6f7d9b,#192942,#00001d);
+    border-radius:0 0 50% 50%/0 0 100% 100%;
+    transform:scaleX(1.2);
 }
+.site-header{
+    position:relative;
+    width:100%;
+    height:30vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.site-header .header-principal
+  {
+	  position:relative;
+	  z-index:1;
+	  margin:0 auto;
+	  max-width:900px;
+	  text-align:center;
+  }
 .gamer{
-    max-width: 30%;
+    max-width:50%;
     margin-top: 1.1em;
    
 }
@@ -38,8 +59,9 @@ background-color: #111d2d;
     max-width: 100%;
     margin: 0 auto;
 }
+
 .bar{
-    background-color: #fe8a65;
+    background:linear-gradient(90deg,#ff5c5e,#c82334,#ff5c5e);
     overflow: hidden;
 }
 
@@ -50,7 +72,7 @@ background-color: #111d2d;
        }
 }
 .main-nav{
-    padding: 1.25em;
+    padding: 0em;
 }
 .main-nav a {
     color: #ffffff;
@@ -60,18 +82,58 @@ background-color: #111d2d;
     text-align: center;
     display: block;
     transition: background-color 0.3s ease-in-out;
+    margin: 0em;
+    
+}
+.main-nav div{
+    display: inline;
+    padding: 2em 0 0 0;
+    margin: 0 2em ;
+}
+.main-nav div:hover
+{
+    transition: all 0.09s linear;
+    transform: scale(1.5);
+    max-width: auto;
+    border-style: dashed;
+    border-radius: 3em;
     
 }
 
 @media(max-width:568px){
     .bar {
         float: right;
-
+        border-radius: 1em;
+        
+  
       }
       .gamercontrol{
          width: 20%;
-         float: right;
+         float:inline-end;
+         position: bottom;
+
       }
+      .gamer{
+          width: 90%;
+      }
+        
+      .main-nav img{
+         width: 7%;
+         margin: 0.5em 0 0 0;
+      }
+      .main-nav a{
+        text-indent: -9999px;
+        margin: 0;
+        padding:0;
+        float: left;
+      }
+
+      .main-nav div{
+        display: inline;
+        padding: 0 0.5em;
+        margin: 0 1.3em ;
+    }
+
 
 }
 @media(min-width:776px){
@@ -82,5 +144,15 @@ background-color: #111d2d;
     .main-nav a{
         display: inline;
     }
+    .header-principal .gamer{
+        margin: 0 0 0 10%;
+    }
+    
+    .main-nav img{
+        width: 3%;
+        margin: 0.5em 0 0 0 ;
+    }
 }
+
+
 
