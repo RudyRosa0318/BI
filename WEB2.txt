@@ -1,2 +1,5 @@
 Font Awesome
 google fonts 
+web gradient
+
+Investiar FLEX

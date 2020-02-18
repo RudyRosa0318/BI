@@ -1,0 +1,7 @@
+>>> string = "Esta es una cadena de texto largo"
+>>> lista = string.split("a")
+>>> lista
+['Est', ' es un', ' c', 'den', ' de texto l', 'rgo']
+>>>
+
+instalar XLWT
