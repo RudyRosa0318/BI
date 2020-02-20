@@ -1,0 +1,22 @@
+import pandas as pd
+import os
+
+#Escribir la ruta absoluta
+mainpath = "/user/hsabillon/Documents...."
+filename = "titanic/titanic3.csv"
+fullpath = os.path.join(mainpath, filename)
+
+data = pd.read_csv(full_path)
+
+
+
+#tamaño del data frame  (filas, columnas)
+data.shape
+
+#obtener encabezados
+data.columns.values
+
+#hace resumen estadistico basico de variables numericas
+data.describe()
+
+#Tipoos de datos
