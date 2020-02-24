@@ -6,3 +6,10 @@ web gradient
 
 Investigar FLEX
 Investigar Sobre Laudato Si, para proyecto domingo final de la semana examenes.
+
+form: tiene contenido en forma de inputs
+legend : instrutivo para el formulario}
+label : etiqueta para campos for (para quien es la etiqueta)
+input : tipo de dato a insertar (name del input debe de ser igual)
+placeholder = "ingresa tu nombre completo"
+
