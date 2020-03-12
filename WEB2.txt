@@ -13,3 +13,4 @@ label : etiqueta para campos for (para quien es la etiqueta)
 input : tipo de dato a insertar (name del input debe de ser igual)
 placeholder = "ingresa tu nombre completo"
 
+https://es.stackoverflow.com/questions/64854/c%C3%B3mo-comentar-las-l%C3%ADneas-seleccionadas-en-vscode
