@@ -13,6 +13,12 @@ https://www.pngfuel.com/free-png/ckxax/download
 https://stackoverflow.com/questions/471510/hide-text-using-css
 https://www.freepng.es/
 
+
+****Text over image HTML Y CSS (No Javascript)***********
+https://www.youtube.com/watch?v=EXWjMswCuf8&feature=youtu.be
+*********Make a div clickable*************************
+https://stackoverflow.com/questions/8160494/how-to-make-a-whole-div-clickable-in-html-and-css-without-javascript
+
 ******************Neon*****************************************
 https://codepen.io/FelixRilling/details/qzfoc
 

@@ -5,3 +5,4 @@ TENDENCIA DE DISEÑO
 LINEAMIENTOS
 
 https://ecologic-llc.com/
+https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
