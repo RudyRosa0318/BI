@@ -1,0 +1,11 @@
+Capitulo numero 7, 9 y 10.
+jarron azul lunes
+------Miercoles-----------
+IA
+relacion entre variable
+(correlacion de datos)
+
+regresion lineal
+regresion logistica
+clustering y arboles o bosques aleatorios
+
