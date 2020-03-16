@@ -70,3 +70,6 @@ https://schauhan.in/how-to-make-curved-header-using-html-and-css-css-tricks/
 background:linear-gradient(90deg,#ffffff,#fe8a65); 
 
  background:linear-gradient(deg,#683383,#164271);
+
+************BORDER FONT *****************************
+https://www.geeksforgeeks.org/css-font-border/
