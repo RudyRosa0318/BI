@@ -1,0 +1,24 @@
+Ejercicio
+
+Numero Maquinas 10
+Dell Vostro 3470 
+
+240W*10= 2400w
+0.24 * 10
+
+
+
+Dell 22 P2217H 
+37W * 10 = 370
+0.037 * 10 
+
+
+1.1104376
+11.104376
+
+Diario	88.835008
+Semanal	444.17504
+Mensual	17776.70016
+
+
+

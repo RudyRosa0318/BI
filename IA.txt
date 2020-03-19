@@ -39,3 +39,5 @@ Analitica Predictiva
 
 ***CAMBRIDGE ANALITICS TAREA ***
 MONEYBALL, PIRATAS DE SILICON VALLEY
+---------------------------------------
+https://relopezbriega.github.io/blog/2016/03/13/analisis-de-datos-cuantitativos-con-python/#Media-aritm%C3%A9tica

@@ -1,0 +1,42 @@
+IA
+Ye = alfa + brta . x
+
+Alquiler mensual = alf + beta * la superficie
+X es la variable predictoras
+Alquiler Mensual es la variable de salida
+
+alfa = 86.96
+beta = 3.37
+
+Ye = 86.96 + 2.37 * x
+(alfa y beta se calculan)
+
+------------------------
+ejemplo 
+Ye = 86.96 + 2.37 * 110 
+multiplicion primero.
+
+----------------------------
+Tecnicas de los minimos cuadrados
+este es la diferencia entre el valor real y el estimado 
+ei = ()
+
+1 hay relacion
+0 no hay relacion
+< que 0 x es muy pequeño en cuanto a y para comparar
+
+•Si S>0 hay dependencia directa (positiva), es decir, a grandes valores de x corresponden grandes valores de y.
+•Si S=0 Una covarianza 0 se interpreta como la no existencia de una relación lineal entre las dos variables estudiadas.
+•Si S<0 hay dependencia inversa o negativa, es decir, a grandes valores de x corresponden pequeños valores de y.
+
+-----------------------
+Componente de error
+
+perfectamente ideal
+Ye = alfa + beta * h
+
+componente de error o residuo
+y = alfa + beta * x + epsilon
+
+el residuo epsilon E sera una variable aleatoria con distribucion normal.
+--------------------------------

@@ -1,0 +1,25 @@
+Capitulo numero 7, 9 y 10.
+jarron azul lunes
+------Miercoles-----------
+IA
+relacion entre variable
+(correlacion de datos)
+
+regresion lineal
+regresion logistica
+clustering y arboles o bosques aleatorios
+teorema central de limite
+
+propuesta
+--------------
+idea de lo que pondra
+descripcion
+fotos del mismo 
+paginas (15 paginas)
+*************************
+
+balopez@unicah.edu
+*************************
+push = append
+------------------------
+caden de texto y arreglo en Javascript

@@ -1,0 +1,45 @@
+PC		500W
+Monitor		40W
+Impresora	20W
+		560W
+
+
+Potencian = i*V
+		
+1.5A
+110V
+
+165W
+
+Tarea 
+Calculos de consumo de mi laptop(Volatej, Amperaje)
+
+fuente 		300W
+Monitor peq 	10W
+=========	310W
+
+310/1000
+0.31KW
+
+6Horas encendida (full trabajo)
+5dias 
+30 Horas Semanales
+3 horas * 4 (un mes de cuatro semanas)
+120 Horas Mens.
+37.2KW
+
+o-50KW	4.0088
+50kw 	5.2164
+
+===149.12736
+
+===============
+si se pasa de 50
+se resta
+ejemplo
+200kw
+
+50*4.0088 = 200.44
+150*5.2164 = 782.46
+========= 982.9
+

@@ -1,0 +1,5 @@
+es5 son con variables let porque es en base a funciones.
+si se necesita const para que nunca cambie.
+solo si cambia que sea let.
+
+var por los momentos no

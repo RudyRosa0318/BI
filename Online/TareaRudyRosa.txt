@@ -1,0 +1,14 @@
+Componentes			Consumo W		
+PC (Hp Compaq Precario CQ43)		320		
+Monitor (Laptop)			23		
+					
+Total					343=   0.343	KW
+					
+Horas diarias				6		
+dias					5		
+Horas	Totales				30h/semanales	
+Horas al mes Totales			120h/mes	
+Consumo mea				41.16KW/mensuales	
+Primeros 50kw				148.245424				
+Consumo total				102.132448		
+			

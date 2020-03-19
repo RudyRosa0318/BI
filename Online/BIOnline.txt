@@ -1,0 +1,58 @@
+//Restaurar Base de Datos
+//Click derecho, base de datos. buscar donde esta, agregar y listo.
+-------------------------------------------------------------------
+//Restaurar bases de datos en database
+18/03/20
+**********
+--(Archivo en cireccion de C)
+
+#Query#
+(Se necesita modelo estrella para el DataWarehouse.)
+
+
+use master
+Go
+
+if BD_ID('DWVENTAS20') is not null
+Begin
+	Drop DWVENTAS20
+End
+
+Create database  DWVENTAS20
+GO
+
+USE DWVENTAS20
+GO
+
+CREATE TABLE dbo.Dimension_Clientes
+(
+	COD_KEY INT IDENTITY (1,1) NOT NULL,
+	CODIGO_ID VARCHAR(7) NOT NULL,
+	NOMBRE VARCHAR(50) NOT NULL,
+	DIRECCION VARCHAR(255) NOT NULL,
+	ZONA VARCHAR(15) NOT NULL,
+	NOM_VEND VARCHAR(15) NOT NULL,
+	CONSTRAINT [PK_Clientes_COD_IDKEY] PRIMARY KEY (COD_IDKEY)
+	
+)
+GO
+
+CREATE TABLE dbo.Dimension_Producto
+(
+	COD_PRODKEY INT IDENTITY(1,1) NOT NULL,
+	COD_PROD VARCHAR(25) NOT NULL,
+	NOM_PROD VARCHAR(255) NOT NULL,
+	NOM_GRUP VARCHAR(50) NOT NULL,
+	MARCA VARCHAR(20) NOT NULL,
+	NOM_LINEA VARCHAR(50) NOT NULL,
+	CONSTRAINT [PK_Productos_COD_PRODKEY] PRIMARY KEY (COD_PRODKEY)
+)
+
+CREATE TABLE dbo.Dimension_Sucursales
+(
+	COD_SUCKEY INT IDENTITY(1,1) NOT NULL,
+	COD_SUC VARCHAR(2) NOT NULL,
+	SUCURSAL VARCHAR(50) NOT NULL,
+	CONSTRAINT [PK_Sucursales_COD_SUCKRY] PRIMARY KEY (COD_KEY)
+)
+
